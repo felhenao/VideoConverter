@@ -1,7 +1,7 @@
 {
-  "name": "Convert",
+  "name": "VideoConverter",
   "version": "1.0.0",
-  "description": "Electron conversion app",
+  "description": "",
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -9,7 +9,7 @@
   },
   "author": "",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "^7.1.8"
   },
   "dependencies": {
     "babel-core": "^6.24.0",
@@ -17,7 +17,7 @@
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-1": "^6.22.0",
-    "fluent-ffmpeg": "^2.1.2",
+    "fluent-ffmpeg": "^2.1.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "moment-duration-format": "^1.3.0",
