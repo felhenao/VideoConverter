@@ -1,10 +1,13 @@
+import { ipcRenderer } from 'electron';
+const electron = require ('electron');
 import { ADD_VIDEO, ADD_VIDEOS, REMOVE_VIDEO, REMOVE_ALL_VIDEOS, VIDEO_PROGRESS, VIDEO_COMPLETE } from "./types";
 
 // TODO: Communicate to MainWindow process that videos
 // have been added and are pending conversion
 export const addVideos = videos => dispatch => {
+  ipcRenderer.send('videos:added', videos);
 
-};
+};//when the user adds videos this function gets called with the list of videos selected
 
 
 // TODO: Communicate to MainWindow that the user wants

@@ -47,7 +47,7 @@ class VideoSelectScreen extends Component {
           rejectClassName="dropzone-reject"
         >
           {this.renderChildren}
-        </Dropzone>
+        </Dropzone> 
       </div>
     );
   }
